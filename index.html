@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Capriola|Heebo:300,400,700&amp;display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./src/style/style.css">
+</head>
+<body>
+
+    <header class="main-content">
+
+        <div class="overlay"></div>
+
+        <div class="mobile-drawer">
+            <i class="fas fa-times"></i>
+            <a href="">Accueil</a>
+            <a href="">Cours Gratuits</a>
+            <a href="">Tutos Gratuits</a>
+            <a href="">Cours & Tutos Payants</a>
+            <a href="">Contact</a>
+        </div>
+
+        <nav>
+
+            <div class="wrapper">
+                
+                <p class="logo">Cours&Tutos</p>
+    
+                <div class="nav-links">
+                    <a href="">Accueil</a>
+                    <a href="">Cours Gratuits</a>
+                    <a href="">Tutos Gratuits</a>
+                    <a href="">Cours & Tutos Payants</a>
+                    <a href="">Contact</a>
+                    <div class="mobile-menu">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <section id="showcase" class="grid">
+
+        <div class="bg-image"></div>
+
+        <div class="content-wrap">
+            <h1>Bienvenue sur Cours&Tutos</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci eum error earum soluta voluptatum nisi laboriosam eos saepe asperiores dolorum.</p>
+            <a href="#section-b" class="btn">en savoir plus</a>
+        </div>
+        
+    </section>
+
+    <main id="main">
+
+        <section id="section-a" class="grid">
+
+            <div class="content-wrap">
+                <h2 class="content-title">Ce que l'on vous propose</h2>
+                <div class="content-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe sint eligendi possimus? Unde officiis magnam laborum ipsa distinctio odio, vero dolores dicta aliquam aperiam repellendus. Perferendis officiis deserunt velit voluptas nobis sequi
+                    animi totam, accusantium, ex eius quia, natus quo?
+                    </p>
+                </div>
+            </div>
+
+        </section>
+        
+        <section id="section-b" class="grid">
+            <ul>
+                <li>
+                    <div class="card">
+                        <img src="https://images.pexels.com/photos/109371/pexels-photo-109371.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="">
+                        <div class="card-content">
+                            <h3 class="card-title">Les bases : HTML/CSS/RWD</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et quasi velit voluptatum cum maiores exercitationem.</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="card">
+                        <img src="https://images.pexels.com/photos/1029757/pexels-photo-1029757.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="">
+                        <div class="card-content">
+                            <h3 class="card-title">Préprocesseurs & Frameworks css</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et quasi velit voluptatum cum maiores exercitationem.</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="card">
+                        <img src="https://images.pexels.com/photos/38519/macbook-laptop-ipad-apple-38519.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="">
+                        <div class="card-content">
+                            <h3 class="card-title">JavaScript</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et quasi velit voluptatum cum maiores exercitationem.</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        
+        <section id="section-c" class="grid">
+            <div class="content-wrap">
+                <h2 class="content-title">Des tutoriels pour vous aider à débuter??</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime nam rerum vel earum error fugiat cupiditate, dolore eius! Minus, explicabo.</p>
+            </div>
+        </section>
+        
+        <section id="section-d" class="grid">
+            <div class="box">
+                <h2 class="content-title">Pour me contacter?</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, suscipit. Rerum ducimus a quod, ut et voluptas obcaecati unde fuga.</p>
+                <p>contact@amail.com</p>
+            </div>
+            <div class="box">
+                <h2 class="content-title">Découvrir qui je suis?</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio earum porro deserunt, deleniti, quae facere repudiandae, officiis est exercitationem nobis iusto doloremque! Soluta excepturi in aut suscipit amet temporibus quo?</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="main-footer" class="grid">
+        <div>Cours&Tutos</div>
+        <div>Tous droit réservés by <a href="https://angeliquejeanne.com" target="_blank">Jeanne S. Dev</a></div>
+    </footer>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.js"></script>
+<script>
+    $(".fa-bars, .fa-times, .mobile-drawer a").click(() => {
+    $(".mobile-drawer").toggleClass("active");
+});
+</script>
+
+</body>
+</html>
