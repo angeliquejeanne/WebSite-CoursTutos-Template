@@ -82,6 +82,8 @@
         #section-d {
             .box {
                 grid-column: span 2;
+                color: var(--color-bg);
+                background: var(--color-primary);
             }
             .box:first-child {
                 color: var(--color-primary);
