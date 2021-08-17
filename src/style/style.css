@@ -335,7 +335,8 @@ body {
 
 #section-d .box {
   padding: 2em;
-  color: var(--color-primary);
+  background-color: var(--color-primary);
+  color: var(--color-bg);
 }
 
 @media (min-width: 700px) {
@@ -380,8 +381,6 @@ body {
   }
   main #section-d .box {
     grid-column: span 2;
-    color: var(--color-bg);
-    background: var(--color-primary);
   }
   main #section-d .box:first-child {
     color: var(--color-primary);

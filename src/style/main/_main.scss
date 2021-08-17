@@ -35,7 +35,8 @@
 #section-d {
     .box {
         padding: 2em;
-        color: var(--color-primary);
+        background-color: var(--color-primary);
+        color: var(--color-bg);
     }
 }
 
@@ -82,8 +83,7 @@
         #section-d {
             .box {
                 grid-column: span 2;
-                color: var(--color-bg);
-                background: var(--color-primary);
+                
             }
             .box:first-child {
                 color: var(--color-primary);
