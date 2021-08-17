@@ -380,6 +380,8 @@ body {
   }
   main #section-d .box {
     grid-column: span 2;
+    color: var(--color-bg);
+    background: var(--color-primary);
   }
   main #section-d .box:first-child {
     color: var(--color-primary);
